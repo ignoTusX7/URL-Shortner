@@ -33,7 +33,10 @@ const createUrl = async (req, res) => {
     visitHistory: [],
   });
 
-  res.json({ shortId: shortID });
+  res.json({
+    originalUrl: req.body.url,
+    shortUrl: "http://localhost:3000/" + shortID,
+  });
 };
 
 module.exports = { createUrl, getUrl };
