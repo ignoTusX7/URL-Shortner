@@ -7,13 +7,13 @@ Welcome to the Node.js URL Shortener Server! This project allows you to set up y
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/node-url-shortener.git
+   git clone https://github.com/ignoTusX7/URL-Shortner.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd node-url-shortener
+   cd URL-Shortner
    ```
 
 3. Install the dependencies:
